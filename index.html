@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time São Paulo</title>
+    <style>
+        /* Reset de margens e paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Estilo do título principal */
+        h1 {
+            color: #d32f2f;
+            font-size: 3rem;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+
+        /* Estilo do subtítulo */
+        h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo do texto */
+        p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Linha separadora */
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #d32f2f;
+            margin: 20px 0;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Estilo da imagem */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Container principal */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Centralizar conteúdo */
+        .content {
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Efeito de animação no título */
+        .content h1 {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Animação de entrada suave */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsividade para dispositivos menores */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Bem-vindo ao FAM Clube São Paulo!</h1>
+            <hr>
+            <h2>Fã-Clube Time São Paulo</h2>
+            <p>Seja parte da torcida mais apaixonada e vibrante do Brasil! O FAM Clube São Paulo é o espaço dedicado aos verdadeiros amantes do Tricolor Paulista, com conteúdo exclusivo, notícias, curiosidades e muito mais sobre o nosso amado time.</p>
+            <hr>
+            <img src="São paulo time.webp" alt="Imagem do Time São Paulo">
+        </div>
+    </div>
+
+</body>
+</html>
